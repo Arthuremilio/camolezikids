@@ -1,0 +1,6 @@
+codigo do kit de icones:
+<script src="https://kit.fontawesome.com/3e580331ad.js" crossorigin="anonymous"></script>
+Whatsapp button:
+<i class="fab fa-whatsapp"></i>
+teste button:
+<i class="fas fa-play"></i>

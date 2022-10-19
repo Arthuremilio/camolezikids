@@ -1,0 +1,1 @@
+Esse projeto é para um trabalho da faculdade mas consiste na construção de um site real, a cliente em questão possui uma marca de roupas infantis e me apresentou a necessidade de um site ecomerce com objetivo de vender roupas sendo essas roupas que ela mesmo fabrica e também roupas de outras marcas que ela revende, além das roupas ela pretende vender também calçados. 

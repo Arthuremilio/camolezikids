@@ -1,0 +1,112 @@
+/* REGRAS DAS FOLHAS DE ESTILO*/
+
+@charset "UTF-8";
+
+/*ELEMENTOS BASE*/
+:root{
+    --branco: #fffdfd;
+    --preto: #000000;
+    --magenta: #ED2F5D;
+    --azul: #3E4095;
+    --verde: #277747;
+    --amarelo: #FFCA29;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: var(--white);
+    font-family:  "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+/*Estilo das Tags*/
+
+header > picture > img {
+    width: 100%;
+
+}
+
+header > h1.slogan{
+    display: inline-block;
+    margin-left: 140px;
+    color: var(--magenta);
+    text-align: center;
+
+}
+nav{
+    background-color:var(--azul);
+    padding: 5px;
+    text-align: center;
+
+}
+nav > a{
+    color: #fcfcfc;
+    text-decoration:none;
+    margin-right: 20px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: #4e50a1;
+    color:var(--branco);
+    padding: 10px;
+}
+main > picture > img {
+    width: 100%;
+    margin: 30px 0px;
+
+}
+
+.titulo-carrossel{
+    background-image: linear-gradient(to right, var(--magenta), transparent);
+    color: var(--branco);
+    padding-left: 20px;
+
+}
+.item{
+    margin-top: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box{
+    padding-top: 50px;
+}
+.Descricao{
+    text-align: center;
+    background-color: var(--azul);
+    color: var(--branco);
+}
+.Preco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: var(--azul);
+    color: var(--branco);
+
+}
+.botao-produto{
+    width: 90%;
+    background-color: var(--magenta);
+    color: var(--branco);
+    padding: 10px;
+    margin: 20px 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.botao-produto:hover{
+    background-color: #d1782f;
+}
+footer{
+    background-color: var(--preto);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+
+}
