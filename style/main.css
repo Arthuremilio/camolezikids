@@ -10,8 +10,6 @@
     --azul: #3E4095;
     --verde: #277747;
     --amarelo: #FFCA29;
-    
-
 }
 
 *{
@@ -19,6 +17,7 @@
     padding: 0;
 
 }
+
 body{
     background: var(--white);
     font-family:  "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -31,17 +30,11 @@ header > picture > img {
 
 }
 
-header > h1.slogan{
-    display: inline-block;
-    margin-left: 140px;
-    color: var(--magenta);
-    text-align: center;
-
-}
 nav{
     background-color:var(--azul);
     padding: 5px;
     text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 
 }
 nav > a{
@@ -59,6 +52,7 @@ nav > a:hover{
 main > picture > img {
     width: 100%;
     margin: 30px 0px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 
 }
 
@@ -66,13 +60,15 @@ main > picture > img {
     background-image: linear-gradient(to right, var(--magenta), transparent);
     color: var(--branco);
     padding-left: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 
 }
 .item{
     margin-top: 25px;
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
 }
 .box{
     padding-top: 50px;
@@ -95,12 +91,13 @@ main > picture > img {
     color: var(--branco);
     padding: 10px;
     margin: 20px 5px;
-    border: 2px solid black;
-    border-radius: 50px;
+    border: 0.5px solid black;
+    border-radius: 25px;
     cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
 }
 .botao-produto:hover{
-    background-color: #d1782f;
+    background-color: #80481b;
 }
 footer{
     background-color: var(--preto);
