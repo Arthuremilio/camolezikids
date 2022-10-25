@@ -133,7 +133,7 @@ main > picture > img {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
 }
 .botao-produto:hover{
-    background-color: #80481b;
+    background-color: #ed2f5ecb;
 }
 footer{
     background-color: var(--preto);
