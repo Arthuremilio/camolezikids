@@ -4,12 +4,14 @@
 
 /*ELEMENTOS BASE*/
 :root{
-    --branco: #fffdfd;
+    --branco: #d3d3d3;
     --preto: #000000;
     --magenta: #ED2F5D;
     --azul: #3E4095;
     --verde: #277747;
     --amarelo: #FFCA29;
+    --laranja: #b38b07;
+ 
 }
 
 *{
@@ -26,6 +28,7 @@ body{
 /*Estilo das Tags*/
 
 header > picture > img {
+
     width: 100%;
 }
 body>nav{
@@ -90,7 +93,7 @@ ul>li>a.submenu-link:hover{
 
 main > picture > img {
     width: 100%;
-    margin: 30px 0px;
+    margin: 50px 0px 0px 0px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 
 }
@@ -98,6 +101,23 @@ main > picture > img {
 .titulo-carrossel{
     background-image: linear-gradient(to right, var(--magenta), transparent);
     color: var(--branco);
+    margin-top: 50px;
+    padding-left: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+
+}
+.titulo-meninos{
+    background-image: linear-gradient(to right, var(--verde), transparent);
+    color: var(--branco);
+    margin-top: 50px;
+    padding-left: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+
+}
+.titulo-bebes{
+    background-image: linear-gradient(to right, var(--laranja), transparent);
+    color: var(--branco);
+    margin-top: 50px;
     padding-left: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 
