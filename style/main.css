@@ -2,7 +2,6 @@
 
 @charset "UTF-8";
 
-/*ELEMENTOS BASE*/
 :root{
     --branco: #d3d3d3;
     --preto: #000000;
@@ -13,6 +12,8 @@
     --laranja: #b38b07;
  
 }
+
+/*ELEMENTOS DE BASE*/
 
 *{
     margin: 0;
@@ -25,12 +26,15 @@ body{
     font-family:  "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
-/*Estilo das Tags*/
+/*Imagem do Cabeçalho da Pagina*/
 
 header > picture > img {
 
     width: 100%;
 }
+
+/*Barra de Navegação*/
+
 body>nav{
     align-items: center;
 }
@@ -90,6 +94,7 @@ ul>li>a.submenu-link:hover{
 
 }
 
+/*Banner da pagina principal*/
 
 main > picture > img {
     width: 100%;
@@ -97,6 +102,8 @@ main > picture > img {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 
 }
+
+/*Titulo do Carrossel de produtos*/
 
 .titulo-carrossel{
     background-image: linear-gradient(to right, var(--magenta), transparent);
@@ -122,6 +129,9 @@ main > picture > img {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 
 }
+
+/*Definiçõs do box do produto*/
+
 .item{
     margin-top: 25px;
     text-align: center;
@@ -158,6 +168,9 @@ main > picture > img {
 .botao-produto:hover{
     background-color: #ed2f5ecb;
 }
+
+/*Rodapé da Página*/
+
 footer{
     background-color: var(--preto);
     color: white;
