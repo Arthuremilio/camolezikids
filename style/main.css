@@ -8,8 +8,7 @@
     --magenta: #ED2F5D;
     --azul: #3E4095;
     --verde: #277747;
-    --amarelo: #FFCA29;
-    --laranja: #b38b07;
+    --amarelo: #b38b07;
  
 }
 
@@ -122,7 +121,14 @@ main > picture > img {
 
 }
 .titulo-bebes{
-    background-image: linear-gradient(to right, var(--laranja), transparent);
+    background-image: linear-gradient(to right, var(--amarelo), transparent);
+    color: var(--branco);
+    margin-top: 50px;
+    padding-left: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+}
+.titulo-black{
+    background-image: linear-gradient(to right, var(--preto), transparent);
     color: var(--branco);
     margin-top: 50px;
     padding-left: 20px;
