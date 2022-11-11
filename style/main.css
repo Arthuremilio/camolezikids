@@ -46,7 +46,7 @@ ul.menu{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527)
 }
 ul>li.menu-item{
-    color: #fcfcfc;
+    color: #fff;
     margin-right: 20px;
     transition-duration: 0.5s;
     margin: 10px;
@@ -60,14 +60,14 @@ ul>li.menu-item:hover> ul.submenu{
     transition-timing-function: ease-out;
 }
 ul>li>a.menu-link{
-    color: #fcfcfc;
+    color: #fff;
     text-decoration:none;
     transition-duration: 0.5s;
 }
 ul>li>a.menu-link:hover{
     background-color: #4e4fa173;
-
 }
+
 ul.submenu{
     width: 95px;
     background-color:var(--azul);
@@ -88,9 +88,8 @@ ul>li>a.submenu-link{
     padding: 5px;
 
 }
-ul>li>a.submenu-link:hover{
-    background-color: #4e4fa15d;
-
+ul>li.submenu-item:hover{
+    background-color: var(--magenta);
 }
 
 /*Banner da pagina principal*/
@@ -130,7 +129,7 @@ main > picture > img {
 .titulo-black{
     background-image: linear-gradient(to right, var(--preto), transparent);
     color: var(--branco);
-    margin-top: 50px;
+    margin-top: 30px;
     padding-left: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
 
@@ -143,7 +142,7 @@ main > picture > img {
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
 }
 .box{
     padding-top: 50px;
@@ -163,7 +162,7 @@ main > picture > img {
 .botao-produto{
     width: 90%;
     background-color: var(--magenta);
-    color: var(--branco);
+    color: #fff;
     padding: 10px;
     margin: 20px 5px;
     border: 0.5px solid black;
@@ -172,7 +171,7 @@ main > picture > img {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
 }
 .botao-produto:hover{
-    background-color: #ed2f5ecb;
+    background-color: #ed2f5ec0;
 }
 /*Formatação da pagina Sobre Nós */
 div>p{
