@@ -3,7 +3,7 @@
 @charset "UTF-8";
 
 :root{
-    --branco: #d3d3d3;
+    --branco: #fff;
     --preto: #000000;
     --magenta: #ED2F5D;
     --azul: #3E4095;
@@ -22,7 +22,7 @@
 
 body{
     background: var(--white);
-    font-family:  "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Imagem do Cabeçalho da Pagina*/
@@ -36,6 +36,7 @@ header > picture > img {
 
 body>nav{
     align-items: center;
+    font-size: 20px;
 }
 
 ul.menu{
@@ -43,7 +44,7 @@ ul.menu{
     list-style: none;
     background-color:var(--azul);
     padding: 5px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527)
+    box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.1);
 }
 ul>li.menu-item{
     color: #fff;
@@ -69,7 +70,7 @@ ul>li>a.menu-link:hover{
 }
 
 ul.submenu{
-    width: 95px;
+    width: 90px;
     background-color:var(--azul);
     border-radius: 10px;
     list-style: none;
@@ -89,15 +90,18 @@ ul>li>a.submenu-link{
 
 }
 ul>li.submenu-item:hover{
+    width: 90px;
     background-color: var(--magenta);
+    padding: 5px;
+    border-radius: 15px;
 }
 
 /*Banner da pagina principal*/
 
 main > picture > img {
     width: 100%;
-    margin: 50px 0px 0px 0px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+    margin: 30px 0px 0px 0px;
+    box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -105,73 +109,75 @@ main > picture > img {
 
 .titulo-carrossel{
     background-image: linear-gradient(to right, var(--magenta), transparent);
-    color: var(--branco);
-    margin-top: 50px;
-    padding-left: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+    margin-top: 30px;
+    padding: 10px 20px;
+    box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.1);
 
 }
 .titulo-meninos{
     background-image: linear-gradient(to right, var(--verde), transparent);
-    color: var(--branco);
-    margin-top: 50px;
-    padding-left: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+    margin-top: 30px;
+    padding: 10px 20px;
+    box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.1);
 
 }
 .titulo-bebes{
     background-image: linear-gradient(to right, var(--amarelo), transparent);
-    color: var(--branco);
-    margin-top: 50px;
-    padding-left: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+    margin-top: 30px;
+    padding: 10px 20px;
+    box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.1);
 }
 .titulo-black{
     background-image: linear-gradient(to right, var(--preto), transparent);
     color: var(--branco);
     margin-top: 30px;
-    padding-left: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+    padding: 10px 20px;
+    box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.1);
 
 }
 
 /*Definiçõs do box do produto*/
 
 .item{
+    position: relative;
+    /* height: 350px; */
     margin-top: 25px;
+    margin-bottom: 15px;
     text-align: center;
-    border: 1px solid black;
     border-radius: 15px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
+    box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.1);
 }
 .box{
-    padding-top: 50px;
+    width: 85%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .Descricao{
+    font-size: 12px;
     text-align: center;
-    background-color: var(--azul);
-    color: var(--branco);
+
 }
 .Preco{
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
     font-size: 24px;
-    background-color: var(--azul);
-    color: var(--branco);
-
+    color: var(--verde);
 }
 .botao-produto{
     width: 90%;
-    background-color: var(--magenta);
+    background-color: var(--preto);
     color: #fff;
     padding: 10px;
-    margin: 20px 5px;
+    margin: 10px 0px;
     border: 0.5px solid black;
-    border-radius: 25px;
+    border-radius: 6px;
     cursor: pointer;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    font-size: 18px;
+    font-weight: bolder;
 }
 .botao-produto:hover{
     background-color: #ed2f5ec0;
+    color: #000000;
 }
 /*Formatação da pagina Sobre Nós */
 div>p{
