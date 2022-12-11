@@ -108,6 +108,7 @@ main > picture > img {
 /*Titulo do Carrossel de produtos*/
 
 .titulo-carrossel{
+    height: auto;
     background-image: linear-gradient(to right, var(--magenta), transparent);
     margin-top: 30px;
     padding: 10px 20px;
@@ -115,6 +116,7 @@ main > picture > img {
 
 }
 .titulo-meninos{
+    height: auto;
     background-image: linear-gradient(to right, var(--verde), transparent);
     margin-top: 30px;
     padding: 10px 20px;
@@ -122,12 +124,14 @@ main > picture > img {
 
 }
 .titulo-bebes{
+    height: auto;
     background-image: linear-gradient(to right, var(--amarelo), transparent);
     margin-top: 30px;
     padding: 10px 20px;
     box-shadow: 0px 6px 15px 2px rgba(0, 0, 0, 0.1);
 }
 .titulo-black{
+    height: auto;
     background-image: linear-gradient(to right, var(--preto), transparent);
     color: var(--branco);
     margin-top: 30px;
@@ -183,21 +187,73 @@ main > picture > img {
 div>p{
     text-align: justify;
     font-size: 1,5em;
-    padding: 30px 30px 0px 10px;
+    padding: 30px 10px 30px 10px;
+}
+div ul{
+    margin-top: 30px;
 }
 div>ul>li{
-    padding: 10px;   
-}
-div>ul>li>a{
-    padding: 10px;
-    text-decoration: none;
-    color: #000000;
-}
-div>ul>li>a:hover{
-    color: var(--verde);
+    padding: 10px; 
+    font-size: 25px;  
 }
 div>iframe{
-    padding: 30px 0px 30px 15px;
+    padding: 30px 10px 30px 15px;
+}
+section{
+    height: 450px;
+    padding: 0px px 70px 15px;
+}
+section h2{
+    width: 60%;
+    margin: 30px 10px;
+    font-size: 20px;
+}
+.email_text {
+    width: 100%;
+    margin: 30px 10px;
+    text-align: center;
+}
+.email-bt {
+    width: 60%;
+    float: left;
+    font-size: 18px;
+    color: #393838;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 0px;
+    border: 1px solid #000 !important;
+}
+.menssage-bt {
+    width: 60%;
+    float: left;
+    font-size: 18px;
+    color: #393838;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 0px;
+    border: 1px solid #000 !important;
+}
+.send_btn {
+    margin: 30px 15px;
+    width: 50%;
+}
+.send_btn a {
+    width: 90%;
+    text-decoration: none;
+    background-color: var(--preto);
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 0.5px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    font-size: 18px;
+    font-weight: bolder;
+}
+.send_btn a:hover {
+    color: #000;
+    background-color: var(--magenta);
 }
 /*Rodapé da Página*/
 
@@ -281,7 +337,7 @@ h2.dev{
 
 a.devs{
     text-decoration: none;
-    color: var(--branco);
+    color:var(--branco);
     font-size: 20px;
 }
 a.devs:hover{
