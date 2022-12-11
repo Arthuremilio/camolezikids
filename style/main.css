@@ -48,9 +48,8 @@ ul.menu{
 }
 ul>li.menu-item{
     color: #fff;
-    margin-right: 20px;
     transition-duration: 0.5s;
-    margin: 10px;
+    margin: 10px 25px 10px 10px;
     position: relative;
     cursor: pointer;
 
@@ -63,14 +62,14 @@ ul>li.menu-item:hover> ul.submenu{
 ul>li>a.menu-link{
     color: #fff;
     text-decoration:none;
-    transition-duration: 0.5s;
 }
 ul>li>a.menu-link:hover{
     background-color: #4e4fa173;
 }
 
 ul.submenu{
-    width: 90px;
+    width: 100px;
+    text-align: center;
     background-color:var(--azul);
     border-radius: 10px;
     list-style: none;
@@ -86,14 +85,14 @@ ul.submenu{
 ul>li>a.submenu-link{
     color: white;
     text-decoration: none;
-    padding: 5px;
+    padding: 7px;
 
 }
 ul>li.submenu-item:hover{
-    width: 90px;
+    width: 90%;
     background-color: var(--magenta);
-    padding: 5px;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 7px;
 }
 
 /*Banner da pagina principal*/
