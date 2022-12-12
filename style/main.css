@@ -184,9 +184,10 @@ main > picture > img {
 }
 /*Formatação da pagina Sobre Nós */
 div>p{
+    width: 95%;
     text-align: justify;
     font-size: 1,5em;
-    padding: 30px 10px 30px 10px;
+    padding: 30px 0px 30px 10px;
 }
 div ul{
     margin-top: 30px;
@@ -196,20 +197,20 @@ div>ul>li{
     font-size: 25px;  
 }
 div>iframe{
-    padding: 30px 10px 30px 15px;
+    padding: 30px 0px 30px 15px;
 }
 section{
     height: 450px;
-    padding: 0px px 70px 15px;
+    padding: 0px 0px 70px 15px;
 }
 section h2{
     width: 60%;
-    margin: 30px 10px;
+    margin: 30px 0px 30px 10px;
     font-size: 20px;
 }
 .email_text {
-    width: 100%;
-    margin: 30px 10px;
+    width: 99%;
+    margin: 30px 0px 30px 10px;
     text-align: center;
 }
 .email-bt {
@@ -233,7 +234,7 @@ section h2{
     border: 1px solid #000 !important;
 }
 .send_btn {
-    margin: 30px 15px;
+    margin: 30px 0px 30px 10px;
     width: 50%;
 }
 .send_btn a {
