@@ -329,18 +329,6 @@ nav a:hover::before{
 
 div.creditos{
     padding: 30px 0px;
-}
-h2.dev{
-    font-size: 25px;
-    dec
-
-}
-
-a.devs{
-    text-decoration: none;
-    color:var(--branco);
     font-size: 20px;
 }
-a.devs:hover{
-    color: var(--verde);
-}
+
