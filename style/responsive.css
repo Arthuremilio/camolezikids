@@ -1,0 +1,169 @@
+
+@media screen and (max-width:500px){
+    div>p{
+        font-size: 15px;
+    }
+    div>ul>li{
+        font-size: 15px;  
+    }
+    section h2{
+        font-size: 15px;
+        }
+
+    footer div picture img{
+        padding-top: 30px;
+        height: 30%;
+        width: 30%;
+    }
+    footer>div>nav>a{
+        font-size: 2em;
+        padding-right: 10px;
+    }
+    footer h2.dev{
+        font-size: 25px;
+    }
+    footer a.devs{
+        font-size: 20px;
+    }
+    .titulo-carrossel{
+        font-size: 15px;
+    
+    }
+    .titulo-meninos{
+        font-size: 15px;
+    
+    }
+    .titulo-bebes{
+        font-size: 15px;
+    }
+    .titulo-black{
+        font-size: 15px;
+    
+    }
+}
+    @media screen and (max-width:700px){
+        div>p{
+            font-size: 15px;
+        }
+        div>ul>li{
+            font-size: 15px;  
+        }
+        section h2{
+            font-size: 15px;
+            }
+           
+        footer div picture img{
+            padding-top: 30px;
+            height: 30%;
+            width: 30%;
+        }
+        footer>div>nav>a{
+            font-size: 2em;
+            padding-right: 10px;
+        }
+        h2.dev{
+            font-size: 25px;
+        }
+        a.devs{
+            font-size: 20px;
+        }
+        .titulo-carrossel{
+            font-size: 15px;
+        
+        }
+        .titulo-meninos{
+            font-size: 15px;
+        
+        }
+        .titulo-bebes{
+            font-size: 15px;
+        }
+        .titulo-black{
+            font-size: 15px;
+        
+        }
+}
+@media screen and (max-width:800px){
+    div>p{
+        font-size: 15px;
+    }
+    div>ul>li{
+        font-size: 15px;  
+    }
+    section h2{
+        font-size: 15px;
+        }
+        
+    footer div picture img{
+        padding-top: 30px;
+        height: 30%;
+        width: 30%;
+    }
+    footer>div>nav>a{
+        font-size: 2em;
+        padding-right: 10px;
+    }
+    h2.dev{
+        font-size: 30px;
+    }
+    a.devs{
+        font-size: 25px;
+    }
+    .titulo-carrossel{
+        font-size: 15px;
+    
+    }
+    .titulo-meninos{
+        font-size: 15px;
+    
+    }
+    .titulo-bebes{
+        font-size: 15px;
+    }
+    .titulo-black{
+        font-size: 15px;
+    
+    }
+}
+@media screen and (max-width:900px){
+    div>p{
+        font-size: 15px;
+    }
+    div>ul>li{
+        font-size: 15px;  
+    }
+    section h2{
+        font-size: 15px;
+        }
+        
+    footer div picture img{
+        padding-top: 30px;
+        height: 30%;
+        width: 30%;
+    }
+    footer>div>nav>a{
+        font-size: 2em;
+        padding-right: 10px;
+    }
+    h2.dev{
+        font-size: 30px;
+    }
+    a.devs{
+        font-size: 25px;
+    }
+    .titulo-carrossel{
+        font-size: 15px;
+    
+    }
+    .titulo-meninos{
+        font-size: 15px;
+    
+    }
+    .titulo-bebes{
+        font-size: 15px;
+    }
+    .titulo-black{
+        font-size: 15px;
+    
+    }
+}
